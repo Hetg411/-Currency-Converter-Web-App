@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vmin;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+.container{
+    height: 70vmin;
+    width: 65vmin;
+    background-color:rgb(250, 250, 247);
+    border-radius: 4vmin;
+    padding: 1vmin;
+}
+.dropdown{
+    margin: 4vmin;
+    padding: 3vmin;
+}
+.container input,select,button{
+    width: 100%;
+    border: none;
+}
+.dropdown input{
+    border:1px solid lightgray;
+    border-radius: 2vmin;
+    padding: 2vmin;
+
+}
+
+.drop{
+   display: flex;
+   flex-direction: row; 
+   justify-content: space-between;
+   margin: 4vmin;
+}
+i{
+    margin-top: 6vmin;
+}
+.select{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+.massage{
+    padding: 1.5vmin;
+
+}
+button{
+    margin-top: 1.5vmin;
+    padding: 1.5vmin;
+    background-color: rgb(179, 109, 245);
+    border-radius: 3vmin;
+}
